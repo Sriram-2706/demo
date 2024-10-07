@@ -36,5 +36,6 @@ stages:
         publishJUnitResults: true   
         testResultsFiles: '**/target/surefire-reports/*.xml'  
 
-- script: echo "Build and regression tests completed."
-  displayName: 'Notify build and test completion'
+
+    - script: echo "Build and regression tests completed."
+      displayName: 'Notify build and test completion'
